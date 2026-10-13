@@ -42,21 +42,6 @@ Los datos de contacto no están en el código: se configuran por variables de en
 
 Son variables públicas: se incorporan a la página al compilar, así que después de cambiarlas hay que redesplegar.
 
-## Deploy en Vercel
-
-1. Importá el repositorio en [vercel.com](https://vercel.com) (detecta Next.js solo).
-2. En **Environment Variables** cargá las variables de la tabla.
-3. **Deploy**.
-
-## Personalización
-
-| Qué cambiar | Dónde |
-|---|---|
-| Textos, precios, planes y niveles mensuales | `lib/content.ts` |
-| Contacto y links de WhatsApp | `lib/config.ts` y variables de entorno |
-| Colores | `tailwind.config.ts` |
-| Orden de secciones | `app/page.tsx` |
-
 ## Estructura
 
 ```
